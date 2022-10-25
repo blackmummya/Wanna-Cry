@@ -8,6 +8,8 @@ def req():
     system('cls')
     system('pip install pyinstaller')
     system('cls')
+    system('pip install cryptography')
+    system('cls')
 
 
 req()
